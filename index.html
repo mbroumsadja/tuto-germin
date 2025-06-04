@@ -3,26 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tuto-germin</title>
-  <link rel="stylesheet" href="public/css/style.css">
-  <meta name="theme-color" content="#000" />
+  <title>Tutoriel Interactif Germin 1.1.5</title>
+  <link rel="stylesheet" href="./public/css/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1>Bienvenue dans tuto-germin !</h1>
-    <p>Ceci est votre premier projet web statique.</p>
-  </main>
-  <footer>
-    <p>2025 tuto-germin</p>
-  </footer>
+  <div class="sidebar">
+    <h2>Étapes du Tutoriel</h2>
+    <ul id="steps-list">
+      <li data-step="0" class="active">Introduction</li>
+      <li data-step="1">Installer Germin</li>
+      <li data-step="2">Créer un projet</li>
+      <li data-step="3">Installer les dépendances</li>
+      <li data-step="4">Lancer le serveur</li>
+      <li data-step="5">Utiliser Kanban</li>
+      <li data-step="6">Construire et déployer</li>
+      <li data-step="7">Conclusion</li>
+    </ul>
+  </div>
+  <div class="main-content" id="main-content">
+    <h2 id="step-title">Introduction</h2>
+    <p id="step-description">
+      Bienvenue dans ce tutoriel interactif pour apprendre à coder avec Germin 1.1.5 ! Suivez les étapes pour créer un projet "calculator", utiliser l'outil Kanban, et le déployer.
+    </p>
+    <div class="terminal" id="terminal">
+      <div id="terminal-output"></div>
+    </div>
+    <button id="next-btn">Étape suivante</button>
+  </div>
+
   <script src="./public/js/script.js" defer></script>
 </body>
 </html>
