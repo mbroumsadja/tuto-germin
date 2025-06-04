@@ -1,17 +1,37 @@
 [
   {
-    "title": "Développer la navbar de",
-    "description": "Navigation responsive",
-    "label": "todo"
+    "title": "recherche des mockups",
+    "description": "faire les rechersches sur les mockups, sur google image et m'inspirer des meilleurs mockups",
+    "label": "Normal"
   },
   {
-    "title": "Ajouter le CSS global",
-    "description": "Fichier style.css",
-    "label": "in-progress"
+    "title": "faire une maquette",
+    "description": "decrire tout les contenue qu'on doit retrouver et leur interaction, introduction ,installer  ",
+    "label": "Urgent"
   },
   {
-    "title": "Corriger les bugs JS",
-    "description": "Script de gestion du formulaire",
-    "label": "done"
+    "title": "mettre le code html en forme",
+    "description": "Navigation responsive,ajoutez un header et un footer , reclassez les sections, ajoutez les sous titres,",
+    "label": "Urgent"
+  },
+  {
+    "title": "mettre le code css en forme",
+    "description": "ajouter les couleurs, les polices, les marges, les bordures, les ombres, les animations, pallette de couleur,imges, icones,textes",
+    "label": "Urgent"
+  },
+  {
+    "title": "mettre le code javascript en forme",
+    "description": "ajouter les interactions, les animations, les effets, les validations, le rendue de texte",
+    "label": "Urgent"
+  },
+  {
+   "title":"build le project et le tester",
+   "description":"tester e code, tester les fonctionnalitées, corriger les bugs, optimiser le code, verifier la compatibilité avec les navigateurs",
+   "label": "Urgent"
+  },
+  {
+    "title": "mettre le code en ligne",
+    "description": "deployer sur github pages",
+    "label": "Normal"
   }
 ]
